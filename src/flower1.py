@@ -8,7 +8,7 @@ from tensorflow.keras.applications import MobileNetV2
 from sklearn.metrics import classification_report, confusion_matrix
 # Path to your organized dataset
 #base_dir = 'flowers3/'
-base_dir = 'train/'  # The directory containing class_1, class_2, etc.
+base_dir = 'data/train/'  # The directory containing class_1, class_2, etc.
 
 # Parameters
 img_height, img_width = 224, 224  # Standard input size for many CNNs
@@ -160,11 +160,20 @@ def plot_history(history):
 
 plot_history(history)
 
-model.save('flower_classifierallold_weights.h5')
+# Define the directory path
+model_dir = 'saved_models'
+
+# Create the directory if it doesn't exist
+if not os.path.exists(model_dir):
+    os.makedirs(model_dir)
+
+# Now, save the model
+model.save(os.path.join(model_dir, 'flower_classifierallold_weights.h5'))
+#model.save('flower_classifierallold_weights.h5')
 print("Final model saved to 'flower_classifier_final.h5'")
 
 # If you want to also save just the weights
-model.save_weights('flower_classifier150.weights.h5')
+model.save_weights(os.path.join(model_dir, 'flower_classifier150.weights.h5'))
 print("Model weights saved to 'flower_classifier_weights.h5'")
 
 def predict_flower_class(image_path, model, class_names):
@@ -204,7 +213,7 @@ def predict_flower_class(image_path, model, class_names):
 #model = tf.keras.models.load_model('best_flower_model.h5')
 
 # Path to your test image
-test_image_path = 'test/Image_1.jpg'
+test_image_path = 'data/test/Image_1.jpg'
 
 # Predict the class
 predicted_class, confidence = predict_flower_class(test_image_path, model, class_names)
