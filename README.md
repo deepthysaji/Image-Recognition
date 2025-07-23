@@ -92,6 +92,17 @@ After training a model with additional convolutional layers (flower_classifieral
 
 Here are some examples of the model's predictions.
 
-| Predicted: Daisy | Predicted: Rose | Predicted: Sunflower |
-| :---: | :---: | :---: |
-| ![Daisy Prediction](results/predictions/daisy646432.png) | ![Rose Prediction](results/predictions/Rose646432.png) | ![Sunflower Prediction](results/predictions/Sunflower646432.png) |
+#### Predicted: Daisy
+![Daisy Prediction](results/predictions/daisy646432.png)
+
+#### Predicted: Dandelion
+![Dandelion Prediction](results/predictions/Dand646432.png)
+
+#### Predicted: Rose
+![Rose Prediction](results/predictions/Rose646432.png)
+
+#### Predicted: Sunflower
+![Sunflower Prediction](results/predictions/Sunflower646432.png)
+
+#### Predicted: Tulip
+![Tulip Prediction](results/predictions/tulip646432png.png)
