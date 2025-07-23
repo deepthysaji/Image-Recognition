@@ -29,6 +29,7 @@ You can download the dataset from here:
 The repository is organized as follows:
 ```
 IMAGE-RECOGNITION/
+
 ├── .gitignore
 ├── README.md
 ├── requirements.txt
