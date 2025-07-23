@@ -89,3 +89,9 @@ python src/prediction.py
 
 ## Prediction Results
 After training a model with additional convolutional layers (flower_classifierallnewlayer6_...) a combination of layers 32, 64, 128, 64, 64, 32 followed by dense layer gave the accurate predictions with epochs = 35, it was tested on sample images. The predictions of this testing are stored in the results/predictions directory.
+
+Here are some examples of the model's predictions.
+
+| Predicted: Daisy | Predicted: Rose | Predicted: Sunflower |
+| :---: | :---: | :---: |
+| ![Daisy Prediction](results/predictions/daisy646432.png) | ![Rose Prediction](results/predictions/Rose646432.png) | ![Sunflower Prediction](results/predictions/Sunflower646432.png) |
