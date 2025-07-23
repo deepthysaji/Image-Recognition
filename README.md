@@ -6,7 +6,7 @@ This project uses a Convolutional Neural Network (CNN) built with TensorFlow and
 
 ***
 
-## 📋 Table of Contents
+##  Table of Contents
 - [Dataset](#-dataset)
 - [Project Structure](#-project-structure)
 - [Installation](#-installation)
@@ -85,4 +85,4 @@ python src/prediction.py
 ```
 
 ## Prediction Results
-After training a model with additional convolutional layers (flower_classifierallnewlayer6_...) a combination of layers 32,64,128,64,64,32 followed by dense layer gave the accurate predictions with epochs = 35, it was tested on sample images. The predictions of this testing are stored in the results/predictions directory.
+After training a model with additional convolutional layers (flower_classifierallnewlayer6_...) a combination of layers 32, 64, 128, 64, 64, 32 followed by dense layer gave the accurate predictions with epochs = 35, it was tested on sample images. The predictions of this testing are stored in the results/predictions directory.
