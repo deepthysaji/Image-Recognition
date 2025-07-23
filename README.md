@@ -27,6 +27,7 @@ You can download the dataset from here:
 ##  Project Structure
 
 The repository is organized as follows:
+```
 IMAGE-RECOGNITION/
 ├── .gitignore
 ├── README.md
@@ -44,6 +45,7 @@ IMAGE-RECOGNITION/
 └── src/
 ├── flower1.py      # Main training script
 └── prediction.py   # Script to run predictions
+```
 
 ***
 
