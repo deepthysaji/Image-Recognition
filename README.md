@@ -1,5 +1,5 @@
 # Image-Recognition
-CNN is used for image recognition
+CNN model for image recognition
 #  Flower Recognition using CNN
 
 This project uses a Convolutional Neural Network (CNN) built with TensorFlow and Keras to classify different species of flowers. The model was trained on the popular Kaggle Flower Dataset, and this repository documents experiments with adding new convolutional layers to improve performance.
